@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/cart_products.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid bg-light py-2 border-bottom">
+      <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <div>
+          <a href="../page/index.html">
+            <img src="../page/images/elegant-diamond-logo.png" alt="logo" class="photo">
+          </a>
+        </div>
+        <h5 class="m-0">🛒 Your Cart</h5>
+        <a href="../page/index.html" class="btn btn-outline-dark">Back to Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-4">
+    <div id="cart-container" class="row"></div>
+  </main>
+
+  <div class="container py-4">
+    <h1 class="text-center mb-4">🛒 My Shopping Cart</h1>
+
+    <div id="favorites-section" class="mb-5">
+      <h3>❤️ Favorites</h3>
+      <div id="favorites-list" class="row g-4"></div>
+    </div>
+
+    <div id="cart-section">
+      <h3>🛍️ Cart Products</h3>
+      <div id="cart-list" class="row g-4"></div>
+    
+      <div class="text-end mt-4">
+        <h4 class="fw-bold text-dark">Total: $<span id="cart-total">0.00</span></h4>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/cart.js"></script>
+</body>
+</html>

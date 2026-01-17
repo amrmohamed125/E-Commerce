@@ -1,0 +1,83 @@
+.background{
+    background-color: #f5ffff;
+}
+
+.btn{
+    transition: 0.3s;
+}
+
+.input-group button , .input-group input{
+    width: 150px;
+    color: #ced4da;
+}
+
+.photo{
+    width: 130px;
+    height: 120px;
+}
+
+.card img{
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.center{
+    margin: auto;
+}
+
+section .card{
+    transition: all 0.3s;
+}
+
+section .card:hover{
+    transform: scale(1.05);
+    border:1px solid #0d6efd;
+    transition: 0.5s;
+}
+
+.card-body i{
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+}
+
+#log{
+    display: none;
+}
+
+#log i{
+    cursor: pointer;
+    font-size: 22px;
+    position: relative;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.products-container .card {
+    width: 250px;
+}
+  
+#cart-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: none;
+    z-index: 999;
+}
+
+.cart {
+    position: relative;
+    cursor: pointer;
+}

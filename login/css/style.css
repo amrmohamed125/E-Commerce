@@ -1,0 +1,11 @@
+.background , .card{
+    background-color: #f5ffff;
+}
+
+.photo{
+    width: 130px;
+    height: 120px;
+    background-image: url("../images/black watch.jpg");
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,13 @@
+.background , .card{
+    background-color: #f5ffff;
+}
+
+.input-group button , .input-group input{
+    width: 150px;
+    color: #ced4da;
+}
+
+.photo{
+    width: 130px;
+    height: 120px;
+}
